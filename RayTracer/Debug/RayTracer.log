@@ -1,7 +1,8 @@
 ﻿  main.cpp
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(52,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(145,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(10,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(11,17): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(11,68): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(11,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(24,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(25,17): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(25,68): warning C4305: 'argument': truncation from 'double' to 'float'
   RayTracer.vcxproj -> D:\Snowblaze Entertainment\RayTracer\Debug\RayTracer.exe
