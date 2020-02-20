@@ -18,7 +18,7 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vec3.cpp">
+    <ClCompile Include="vec3.h">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
