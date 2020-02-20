@@ -1,5 +1,9 @@
+#ifndef VEC3
+#define VEC3
+
 #include <math.h>
 #include <istream>
+
 class vec3
 {
 public:
@@ -150,3 +154,5 @@ inline vec3 unit_vector(vec3 v)
 {
     return v / v.length();
 }
+
+#endif
