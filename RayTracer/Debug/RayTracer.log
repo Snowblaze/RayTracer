@@ -2,6 +2,10 @@
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(52,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(145,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\hittable_list.h(25,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(14,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(15,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(22,26): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(23,24): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(8,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(10,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(17,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
