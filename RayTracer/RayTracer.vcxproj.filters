@@ -26,13 +26,7 @@
     <ClInclude Include="ray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hittable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="sphere.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="hittable_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="random.h">
@@ -42,6 +36,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="moving_sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hitable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hitable_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

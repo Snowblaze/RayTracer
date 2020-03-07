@@ -2,9 +2,9 @@
 #define SPHEREH
 #pragma once
 
-#include "hittable.h"
+#include "hitable.h"
 
-class sphere : public hittable
+class sphere : public hitable
 {
 public:
     sphere() {}

@@ -2,7 +2,8 @@
 #define VEC3
 
 #include <math.h>
-#include <istream>
+#include <stdlib.h>
+#include <iostream>
 
 class vec3
 {
