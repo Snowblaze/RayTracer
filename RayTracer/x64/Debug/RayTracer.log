@@ -1,7 +1,7 @@
 ﻿  main.cpp
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(53,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(146,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\hitable_list.h(25,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\hitable_list.h(26,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(15,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(15,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(27,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -40,4 +40,9 @@ D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(62,77): warning C4305: '
 D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(69,82): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(70,76): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(92,29): warning C4305: 'initializing': truncation from 'double' to 'float'
-  RayTracer.vcxproj -> D:\Snowblaze Entertainment\RayTracer\x64\Debug\RayTracer.exe
+  vec3.h
+D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(53,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(146,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl aabb::aabb(void)" (??0aabb@@QEAA@XZ) referenced in function "public: virtual bool __cdecl hitable_list::bounding_box(float,float,class aabb &)const " (?bounding_box@hitable_list@@UEBA_NMMAEAVaabb@@@Z)
+D:\Snowblaze Entertainment\RayTracer\x64\Debug\RayTracer.exe : fatal error LNK1120: 1 unresolved externals
