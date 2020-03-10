@@ -7,6 +7,9 @@
 #include "random.h"
 #include "material.h"
 #include "moving_sphere.h"
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+#include "surface_texture.h"
 
 using namespace std;
 
@@ -32,6 +35,16 @@ vec3 color(const ray& r, hitable *world, int depth)
         float t = 0.5 * (unit_direction.y() + 1.0);
         return (1.0 - t) * vec3(1.0, 1.0, 1.0) + t * vec3(0.5, 0.7, 1.0);
     }
+}
+
+hitable* earth()
+{
+    int nx;
+    int ny;
+    int nn;
+    unsigned char* tex_data = stbi_load("./assets/earthmap.jpg", &nx, &ny, &nn, 0);
+    material* mat = new lambertian(new image_texture(tex_data, nx, ny));
+    return new sphere(vec3(0, 0, 0), 2, mat);
 }
 
 hitable* random_scene()
@@ -100,11 +113,11 @@ int main()
     if (file.is_open())
     {
         int nx = 200;
-        int ny = 100;
+        int ny = 200;
         int ns = 20;
         file << "P3\n" << nx << " " << ny << "\n255\n";
 
-        hitable* world = two_perlin_spheres();
+        hitable* world = earth();
 
         vec3 lookfrom(13, 2, 3);
         vec3 lookat(0, 0, 0);

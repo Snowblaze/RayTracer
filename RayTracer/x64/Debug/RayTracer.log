@@ -1,6 +1,8 @@
 ﻿  main.cpp
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(53,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\vec3.h(146,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\hitable.h(14,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\hitable.h(15,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\hitable_list.h(26,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(15,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(15,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
@@ -24,30 +26,93 @@ D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(40,71): warning C4244:
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(40,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(40,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(109,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(16,8): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(32,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(33,21): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(33,72): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(41,83): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(41,126): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(48,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(49,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(49,83): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(49,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(50,16): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(54,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(54,247): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(54,212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(54,177): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(54,268): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(58,134): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(58,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(58,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(58,164): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(58,183): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(62,77): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(69,103): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(70,76): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(77,83): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(77,126): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(964,12): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1033,20): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1082,12): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1104,20): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1332,16): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1370,51): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1390,51): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(3319,46): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(3347,74): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(3365,54): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4504,46): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4632,62): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4638,81): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4647,39): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4649,26): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4658,52): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4695,32): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4699,28): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4727,22): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4730,65): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4741,39): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4781,61): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4960,27): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4982,24): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(4987,24): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5122,16): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5126,16): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5134,16): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5142,16): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5155,16): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5172,16): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5176,22): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5323,41): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5351,20): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5362,46): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5363,40): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5377,24): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5396,51): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5414,50): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5425,36): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5435,50): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5462,34): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5463,35): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5680,35): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5684,53): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5690,28): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5702,24): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5731,54): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5739,55): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5756,24): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5789,24): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5823,20): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5937,16): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5946,27): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5951,43): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(5955,43): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(6005,82): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(6222,22): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
+D:\Snowblaze Entertainment\RayTracer\RayTracer\surface_texture.h(21,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\surface_texture.h(22,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\surface_texture.h(27,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\surface_texture.h(28,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\surface_texture.h(29,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(19,8): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(35,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(36,21): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(36,72): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(54,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(54,126): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(61,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(62,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(62,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(62,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(63,16): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(67,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(67,247): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(67,212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(67,177): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(67,268): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(71,134): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(71,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(71,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(71,164): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(71,183): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(75,77): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(82,103): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(83,76): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(90,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(90,126): warning C4305: 'argument': truncation from 'double' to 'float'
   RayTracer.vcxproj -> D:\Snowblaze Entertainment\RayTracer\x64\Debug\RayTracer.exe
