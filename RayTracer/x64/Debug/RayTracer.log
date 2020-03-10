@@ -10,6 +10,13 @@ D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(29,27): warning C4244: '
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(36,39): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(37,38): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\camera.h(43,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\perlin.h(37,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\perlin.h(38,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\perlin.h(39,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\perlin.h(65,1): warning C4305: 'argument': truncation from 'double' to 'const float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\perlin.h(84,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\perlin.h(84,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\perlin.h(84,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(9,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(11,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(18,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data

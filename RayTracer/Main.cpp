@@ -83,19 +83,28 @@ hitable* two_spheres()
     return new hitable_list(list, n);
 }
 
+hitable* two_perlin_spheres()
+{
+    texture* pertext = new noise_texture(4);
+    hitable** list = new hitable* [2];
+    list[0] = new sphere(vec3(0, -1000, 0), 1000, new lambertian(pertext));
+    list[1] = new sphere(vec3(0, 2, 0), 2, new lambertian(pertext));
+    return new hitable_list(list, 2);
+}
+
 int main()
 {
     ofstream file;
-    file.open("image200x100.ppm", ios::out);
+    file.open("image.ppm", ios::out);
 
     if (file.is_open())
     {
-        int nx = 400;
-        int ny = 200;
+        int nx = 200;
+        int ny = 100;
         int ns = 20;
         file << "P3\n" << nx << " " << ny << "\n255\n";
 
-        hitable* world = two_spheres();
+        hitable* world = two_perlin_spheres();
 
         vec3 lookfrom(13, 2, 3);
         vec3 lookat(0, 0, 0);
