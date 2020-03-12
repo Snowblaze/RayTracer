@@ -26,7 +26,7 @@ D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(18,24): warning C4244:
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(40,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(40,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(40,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(130,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\material.h(145,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(964,12): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
 D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1033,20): warning C4312: 'type cast': conversion from 'int' to 'unsigned char *' of greater size
 D:\Snowblaze Entertainment\RayTracer\RayTracer\stb_image.h(1082,12): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
@@ -96,33 +96,40 @@ D:\Snowblaze Entertainment\RayTracer\RayTracer\aarect.h(35,31): warning C4244: '
 D:\Snowblaze Entertainment\RayTracer\RayTracer\aarect.h(35,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\aarect.h(55,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 D:\Snowblaze Entertainment\RayTracer\RayTracer\aarect.h(55,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(21,8): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(40,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(41,21): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(41,72): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(49,78): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(50,80): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\constant_medium.h(36,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\constant_medium.h(61,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(22,8): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(41,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(42,21): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(42,72): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(50,78): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(51,80): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(93,83): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(93,126): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(100,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(101,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(101,83): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(101,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(102,16): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(106,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(106,247): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(106,212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(106,177): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(106,268): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(110,134): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(110,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(110,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(110,164): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(110,183): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(114,77): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(121,103): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(122,76): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(129,83): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(129,126): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(52,80): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(73,78): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(74,80): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(75,80): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(88,89): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(89,89): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(119,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(119,126): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(126,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(127,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(127,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(127,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(128,16): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(132,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(132,247): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(132,212): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(132,177): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(132,268): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(136,134): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(136,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(136,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(136,164): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(136,183): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(140,77): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(147,103): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(148,76): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(155,83): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Snowblaze Entertainment\RayTracer\RayTracer\main.cpp(155,126): warning C4305: 'argument': truncation from 'double' to 'float'
   RayTracer.vcxproj -> D:\Snowblaze Entertainment\RayTracer\x64\Debug\RayTracer.exe
