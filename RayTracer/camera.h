@@ -3,7 +3,6 @@
 #pragma once
 
 #include "ray.h"
-#include "random.h"
 #include <corecrt_math_defines.h>
 #include <math.h>
 

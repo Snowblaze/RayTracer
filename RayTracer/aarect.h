@@ -36,6 +36,24 @@ public:
         return true;
     }
 
+    virtual float pdf_value(const vec3& origin, const vec3& v) const
+    {
+        hit_record rec;
+        if (!this->hit(ray(origin, v), 0.001, INFINITY, rec)) return 0;
+
+        auto area = (x1 - x0) * (z1 - z0);
+        auto distance_squared = rec.t * rec.t * v.squared_length();
+        auto cosine = fabs(dot(v, rec.normal) / v.length());
+
+        return distance_squared / (cosine * area);
+    }
+
+    virtual vec3 random(const vec3& origin) const
+    {
+        vec3 random_point = vec3(random_double(x0, x1), k, random_double(z0, z1));
+        return random_point - origin;
+    }
+
     material* mat_ptr;
     float x0;
     float x1;

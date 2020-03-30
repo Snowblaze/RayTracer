@@ -13,4 +13,9 @@ inline double random_double()
     return rand_generator();
 }
 
+inline double random_double(double min, double max)
+{
+    return min + random_double() * (max - min);
+}
+
 #endif
